@@ -7,9 +7,14 @@ This is my second project within the Thinkful Data Science Flex Program curricul
 The data originates from: https://www.kaggle.com/andrewmvd/heart-failure-clinical-data. The data was collected at t Faisalabad Institute of Cardiology and Allied Hospital from April to December 2015.  
 
 ## Methods ##
-We built and trained KNN, Random Forest, Gradient Boosting, and Support Vector classification models, comparing their
-accuracy and false negative classifications prior to selecting one for further hyperparameter tuning with the GridSearch method.
+As the target variable is discrete (binary), we built the following classification models prior to model selection and hyperparameter tuning
+- K Nearest Neighbors (KNN)
+- Random Forest
+- Support Vector Machine 
+- Gradient Booster
 
 ## Evaluation ##
 
 ## Future Goals ##
+- Rescale the variables for the models and reassess performance and accuracy
+- Build, train, and evaluate the performance of other supervised-learning models
