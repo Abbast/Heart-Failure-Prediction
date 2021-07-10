@@ -13,11 +13,11 @@ As the target variable is discrete (binary), we built the following classificati
 - Support Vector Machine 
 - Gradient Booster
 
-We split the data into training and test sets, with the test set comprising 20 percent of the dataset prior to training and fitting, then made use of the accuracy, precision, and recall scores to compare and assess which model(s) we would proceed with. 
+We split the data into training and test sets, with the test set comprising 20 percent of the dataset prior to training and fitting. While fitting, we used the default parameter arguments for each model to obtain a baseline for comparison.
 
 ## Evaluation ##
-Requires entry.
+To assess the performance of each model, we made use of the following: accuracy, precision, and recall scores, as well as confusion matrices. The performance metrics were used to determine which baseline models could be discarded, while the confusion matrices were used to evaluate which model minimized the number of false negative (FN) classifications, i.e. stating a patient does not have heart failure when they do.
 
 ## Future Goals ##
-- Rescale the variables for the models and reassess performance and accuracy
+- Rescale the variables for the models and reassess our evaluation metrics: accuracy, precision, and recall
 - Build, train, and evaluate the performance of other supervised-learning models
