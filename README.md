@@ -7,6 +7,28 @@ This is my second project within the Thinkful Data Science Flex Program curricul
 The data originates from: https://www.kaggle.com/andrewmvd/heart-failure-clinical-data. The data was collected at the Faisalabad Institute of Cardiology and Allied Hospital from April to December 2015.  
 
 ### Description of the Features
+We include the following description of the features and their dimensions, where appropriate.
+
+* Age: the age of the patient (years)
+* Anaemia: the decrease of red blood cells or hemoglobin
+  
+    0 = `no`, 1 = `yes`
+* Creatinine Phosphokinase: Level of the CPK enzyme in the blood (mcg/L)
+* Diabetes: If the patient has diabetes
+    
+    0 = `no`, 1 = `yes`
+* Ejection Fraction: Percentage of blood leaving the heart at each contraction (percentage)
+* High Blood Pressure: If the patient has hypertension
+* Platelets: Platelets in the blood (kiloplatelets/mL)
+* Serum Breatinine: Level of serum creatinine in the blood (mg/dL)
+* Serum Sodium: Level of serum sodium in the blood (mg/dL)
+* Sex: Gender of the patient 
+   
+   0 = `Female`, 1 = `Male`
+* Smoking: Does the patient smoke?
+    
+    0 = `no`, 1 = `yes`
+* Time: Follow-up period
 
 ### Demographic Information
 As the dataset pertains to heart failure, it contains demographic features that we can examine further to obtain a better understanding of the data. The features of interest include the following: 
