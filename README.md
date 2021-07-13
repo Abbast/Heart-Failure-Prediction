@@ -42,6 +42,8 @@ As the dataset pertains to heart failure, it contains demographic features that 
 
 To gain a better grasp on features, we used plotted either histograms or pie charts, depending on whether the variable was continuous or discretized.
 
+![](../raw/master/Images/ImportantImage.png)
+
 ## Methods ##
 As the target variable is discrete (binary), we built the following classification models prior to model selection and hyperparameter tuning
 - K Nearest Neighbors (KNN)
