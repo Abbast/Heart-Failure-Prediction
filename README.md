@@ -19,6 +19,8 @@ We include the following description of the features and their dimensions, where
     0 = `no`, 1 = `yes`
 * Ejection Fraction: Percentage of blood leaving the heart at each contraction (percentage)
 * High Blood Pressure: If the patient has hypertension
+
+    0 = `no`, 1 = `yes`
 * Platelets: Platelets in the blood (kiloplatelets/mL)
 * Serum Breatinine: Level of serum creatinine in the blood (mg/dL)
 * Serum Sodium: Level of serum sodium in the blood (mg/dL)
