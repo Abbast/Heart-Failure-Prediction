@@ -44,8 +44,10 @@ As the dataset pertains to heart failure, it contains demographic features that 
 
 To gain a better grasp on features, we used plotted either histograms or pie charts, depending on whether the variable was continuous or discretized.
 
+                                                          Distribution of Ages 
 ![AgeHisto](https://user-images.githubusercontent.com/25100208/125535188-119f5009-fb67-4172-9a2f-fb88befd5ca3.png)
 
+                                                               Pie Charts
 ![PieCharts](https://user-images.githubusercontent.com/25100208/125535283-522e15e2-e552-47fd-a2b8-be492789b457.png)
 
 ## Methods ##
@@ -60,9 +62,11 @@ We split the data into training and test sets, with the test set comprising 20 p
 ## Evaluation ##
 To assess the performance of each model, we made use of the following: accuracy, precision, and recall scores, as well as confusion matrices. The performance metrics were used to determine which baseline models could be discarded, while the confusion matrices were used to evaluate which model minimized the number of false negative (FN) classifications, i.e. stating a patient does not have heart failure when they do.
 
+                                                         Confusion Matrices
 ![CMs](https://user-images.githubusercontent.com/25100208/125535891-042ce508-d4d0-4e5e-95d2-8c61491e50cf.png)
 
 ## Future Goals ##
+                                                   Random Forest Feature Importances
 ![RFCfeatures](https://user-images.githubusercontent.com/25100208/125536912-f67f0caa-1891-4d3f-b888-bcd858ddc007.png)
 
 - Rescale the variables for the models and reassess our evaluation metrics: accuracy, precision, and recall
