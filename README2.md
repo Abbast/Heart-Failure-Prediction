@@ -68,6 +68,8 @@ Heart failure affects millions of patients worldwide and early detection can sig
 - **High recall (88%)** - Successfully identifies most at-risk patients
 - **Feature Importance**: Ejection Fraction, Serum Creatinine, and Age were top predictors
 
+![RFCfeatures](https://user-images.githubusercontent.com/25100208/125536912-f67f0caa-1891-4d3f-b888-bcd858ddc007.png)
+
 ## 💡 Business Impact
 
 - **Early Detection**: Model can identify high-risk patients before clinical symptoms worsen
